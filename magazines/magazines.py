@@ -1,4 +1,7 @@
 class Magazine:
+    """
+        Класс для описания журнала.
+    """
     def __init__(self, name, author, year):
         self.name = name
         self.author = author

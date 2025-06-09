@@ -17,3 +17,6 @@ class Shop:
             return 'Журналы отсутствуют.'
 
         return f'Доступные журналы:\n{available_magazines}'
+
+    def get_available_magazines(self):
+        return [magazine for magazine in self.magazines if magazine.is_available]
